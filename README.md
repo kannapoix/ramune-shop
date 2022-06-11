@@ -1,22 +1,38 @@
-# ramune_shop
+# create-svelte
 
-## CLI Commands
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-``` bash
-# install dependencies
-npm install
+## Creating a project
 
-# serve with hot reload at localhost:8080
-npm run dev
+If you're seeing this, you've probably already done this step. Congrats!
 
-# build for production with minification
-npm run build
+```bash
+# create a new project in the current directory
+npm init svelte
 
-# test the production build locally
-npm run serve
-
-# run tests with jest and preact-render-spy 
-npm run test
+# create a new project in my-app
+npm init svelte my-app
 ```
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
