@@ -1,6 +1,10 @@
+.DS_Store
 node_modules
 /build
-/*.log
-*.lock
-
-package-lock.json
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+.vercel
+.output
