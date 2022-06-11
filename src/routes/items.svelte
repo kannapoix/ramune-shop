@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <svelte:head>
 	<title>Items</title>
 	<meta name="description" content="Item list" />
