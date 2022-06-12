@@ -10,7 +10,11 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>
+		This page is powerd by <a href="https://kit.svelte.dev" target="_blank">SvelteKit</a> and
+		<a href="https://btcpayserver.org/" target="_blank">BTCPay</a>, delivered by
+		<a href="https://www.netlify.com/" target="_blank">Netlify</a>
+	</p>
 </footer>
 
 <style>
